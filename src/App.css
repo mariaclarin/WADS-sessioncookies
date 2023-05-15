@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.App {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color:white;
+    width: 100%;
+}
+.title{
+  font-family: 'Darumadrop One', cursive;
+  font-size: 50px;
+  margin-bottom: -10px;
+}
+
+.myself{
+  font-family: 'Comfortaa', cursive;
+}
+body{
+  background-image: linear-gradient(to left, #4A5F90 , #7E93BA);
+}
+
+.unamefield{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.passfield{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -18px;
+  gap: 10px;
+}
+
+img{
+  width: 30%;
+  margin-top: -28px;
+  margin-bottom: -20px;
+}
+.btn{
+  background-color: #284377;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  padding-left:20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(27, 28, 29, 0.993);
+}
+
+.btn:hover {
+  background-color: #4A5F90;
+}
+
+.getcookie{
+  margin-top: 20px;
+}
+
+.display{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+
+.display1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  margin-top: -18px;
+}
